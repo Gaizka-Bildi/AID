@@ -1,0 +1,62 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color:#00CC99;
+    overflow-x: hidden;
+ 
+}
+
+.bestline-block {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 5vw;
+    z-index: 100;
+
+}
+.middle-layer{
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 50vw;
+    max-height: 90vh;
+    width: 100%;
+    height: auto;
+    z-index: 50;
+    transform: translate(-50%,-50%);
+}
+.middle-layer .logo-block{
+    z-index: 75;
+}
+
+.bestline {
+    height: 100%;
+    background-color: grey;
+    padding: 22px 66px 22px 22px;
+}
+
+.logo-block {
+    position: absolute;
+    height: 18vw;
+    top: 0;
+    left: 0;
+}
+.bg{
+    z-index: 50;
+}
+
+.logo {
+    height: 100%;
+    background-color: grey;
+    padding: 22px 46px 22px 22px;
+}
